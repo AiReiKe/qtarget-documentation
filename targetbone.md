@@ -25,5 +25,10 @@ exports.qtarget:AddTargetBone({'boot'},{
 	distance = 2
 })
 ```
+##### Remove the zone after usage.
 
-##### An export to delete target bones doesnt exist (yet maybe)
+```lua
+exports.qtarget:RemoveTargetBone({'boot'}, {
+    'Get in Trunk', 'action 2'
+})
+```
