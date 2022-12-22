@@ -25,7 +25,7 @@ exports.qtarget:AddTargetBone({'boot'},{
 	distance = 2
 })
 ```
-##### Remove the zone after usage.
+##### Remove the target bone after usage.
 
 ```lua
 exports.qtarget:RemoveTargetBone({'boot'}, {
