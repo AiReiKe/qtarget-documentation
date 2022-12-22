@@ -29,3 +29,8 @@ exports.qtarget:AddBoxZone("MissionRowDutyClipboard", vector3(441.7989, -982.052
 		distance = 3.5
 })
 ```
+##### Remove the zone after usage.
+
+```lua
+exports.qtarget:RemoveZone('nancy')
+```
